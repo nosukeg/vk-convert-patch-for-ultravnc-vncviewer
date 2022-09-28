@@ -1,0 +1,11 @@
+--- UltraVNC-1.3.8.0.orig/vncviewer/KeyMapjap.cpp	2022-03-27 17:00:02.640623300 +0900
++++ UltraVNC-1.3.8.0/vncviewer/KeyMapjap.cpp	2022-04-26 15:51:00.294819200 +0900
+@@ -82,7 +82,7 @@ static const vncKeymapping keymap[] = {
+     {VK_DBE_SBCSCHAR, XK_Zenkaku},		/* 0xf3: to Zenkaku */
+     {VK_DBE_DBCSCHAR, XK_Hankaku},		/* 0xf4: to Hankaku */
+     {VK_DBE_ALPHANUMERIC, XK_Eisu_toggle},	/* 0xf0: Alphanumeric toggle */
+-    {VK_CONVERT,	XK_Mae_Koho},		/* 0x1c: Previous Candidate */
++    {VK_CONVERT,	XK_Henkan_Mode},	/* 0x1c: Previous Candidate */
+ 
+ 
+     {VK_NUMPAD0,	XK_KP_0},
